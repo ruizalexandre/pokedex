@@ -6,6 +6,49 @@ First generation, __1 to 151__.
 * `images` contains great pictures of pokémons
 * `thumbnails` contains small pictures of pokémons (easy to load)
 
+## Interface
+
+```typescript
+interface Pokemon {
+  "id": number;
+  "name": {
+    "english": string;
+    "japanese": string;
+    "chinese": string;
+    "french": string;
+  };
+  "type": PokemonType[];
+  "base": {
+    "HP": number;
+    "Attack": number;
+    "Defense": number;
+    "Sp. Attack": number;
+    "Sp. Defense": number;
+    "Speed": number;
+  }
+}
+
+enum PokemonType {
+  Grass = "Grass",
+  Poison = "Poison",
+  Fire = "Fire",
+  Flying = "Flying",
+  Water = "Water",
+  Bug = "Bug",
+  Normal = "Normal",
+  Electric = "Electric",
+  Ground = "Ground",
+  Fairy = "Fairy",
+  Fighting = "Fighting",
+  Psychic = "Psychic",
+  Rock = "Rock",
+  Steel = "Steel",
+  Ice = "Ice",
+  Ghost = "Ghost",
+  Dragon = "Dragon",
+}
+```
+
 ## How to access [developers]
 
 * `https://raw.githubusercontent.com/ruizalexandre/pokedex/master/pokedex.json` access to raw json

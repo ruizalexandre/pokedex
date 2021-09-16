@@ -1,5 +1,11 @@
 # Pokedex
 
+[![](https://img.shields.io/badge/Version-0.0.1-yellow)](https://github.com/ruizalexandre/pokedex/releases/tag/0.0.1)
+[![](https://img.shields.io/badge/Pokédex-classic-red)](https://the-fellowship-of-the-code.github.io/pokedex-vanilla-js/)
+[![](https://img.shields.io/badge/Pokédex-next-blue)](https://the-fellowship-of-the-code.github.io/pokedex-vanilla-js/next/)
+
+## About
+
 First generation, __1 to 151__.
 
 * `pokedex.json` contains pokemon data (names, id, attributes and more)
